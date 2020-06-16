@@ -1,0 +1,30 @@
+.participant-hello {
+  padding-top: 50px;
+  text-align: center;
+  /*padding-left: 189px;*/
+}
+
+a {
+  padding: 30px;
+  color: rgb(172,104,26);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+}
+
+body {
+}
+
+.h1, h1 {
+  color: rgb(225,146,54);
+  text-shadow: 4px 4px 10px black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /*padding-right: 120px;*/
+}
+
+.h1, h1 {
+  padding-top: 30px;
+}
+
