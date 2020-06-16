@@ -13,20 +13,21 @@ body {
   padding-top: 100px;
   background-image: background-image:url('https://i.ibb.co/Wcg5KJq/Ethereum.png') no-repeat center center;color:rgba(1, 100, 100, 0.4);
   background-image: url('https://i.ibb.co/Wcg5KJq/Ethereum.png');
-  color: rgba(1, 100, 100, 0.4);
-  background-size: cover;
+   background-position: center center;
+  
+  /* Background image doesn't tile */
   background-repeat: no-repeat;
-   content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
   background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
 }
 
