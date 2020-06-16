@@ -15,5 +15,6 @@ body {
   background-image: url('https://i.ibb.co/Wcg5KJq/Ethereum.png');
   color: rgba(1, 100, 100, 0.4);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
